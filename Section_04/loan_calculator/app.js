@@ -7,7 +7,6 @@ document.getElementById("loan-form").addEventListener("submit", function (e) {
   document.getElementById("loading").style.display = "block";
 
   setTimeout(calculateResults, 2000);
-
   e.preventDefault();
 });
 
